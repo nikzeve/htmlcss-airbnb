@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    height: 288px;
+    width: 498px;
+}
+
+#capo {
+    height: 900px;
+    width: 510px;
+    background-color: green;
+    margin: 50px auto;
+    position: relative;
+    padding: 5px;
+
+
+}
+.prima {
+    height: 290px;
+    width: 500px;
+    background-color: red;
+    border: 1px solid black;
+    margin: 5px auto;
+
+
+}
+.seconda {
+    height: 290px;
+    width: 500px;
+    background-color: blue;
+    border: 1px solid black;
+    margin: 5px auto;
+}
+
+.terza {
+    height: 290px;
+    width: 500px;
+    background-color: yellow;
+    border: 1px solid black;
+    margin: 5px auto;
+
+}
