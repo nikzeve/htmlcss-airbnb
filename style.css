@@ -4,43 +4,64 @@
     box-sizing: border-box;
 }
 
-img {
-    height: 288px;
-    width: 498px;
-}
+
 
 #capo {
     height: 900px;
     width: 510px;
-    background-color: green;
+    background-color:rgba(0, 0, 0, 0.8);
     margin: 50px auto;
     position: relative;
     padding: 5px;
-
-
 }
 .prima {
     height: 290px;
     width: 500px;
-    background-color: red;
     border: 1px solid black;
     margin: 5px auto;
+    background-image: url("https://www.giovannicarrieri.com/photography/italy/bari/bari-alba-lungomare.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    position: relative;
 
 
 }
 .seconda {
     height: 290px;
     width: 500px;
-    background-color: blue;
     border: 1px solid black;
     margin: 5px auto;
+    background-image: url("https://blog-it.hotelsclick.com/wp-content/uploads/2018/05/cosa-vedere-a-napoli.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    position: relative;
+
 }
 
 .terza {
     height: 290px;
     width: 500px;
-    background-color: yellow;
     border: 1px solid black;
     margin: 5px auto;
+    background-image: url("https://www.zingarate.com/pictures/2019/04/23/polignano-a-mare.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    position: relative;
+
+}
+
+.testi {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px black;
+
+
 
 }
